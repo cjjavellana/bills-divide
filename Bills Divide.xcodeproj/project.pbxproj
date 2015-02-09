@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30303BC01A86E35200ED7BF5 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30303BBF1A86E35200ED7BF5 /* AddEntryViewController.swift */; };
+		30303BC21A87314C00ED7BF5 /* hp_msn.png in Resources */ = {isa = PBXBuildFile; fileRef = 30303BC11A87314C00ED7BF5 /* hp_msn.png */; };
+		30303BC41A877B4700ED7BF5 /* line_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 30303BC31A877B4700ED7BF5 /* line_chart.png */; };
 		3032BC501A86080F007D6F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032BC4F1A86080F007D6F82 /* AppDelegate.swift */; };
 		3032BC521A86080F007D6F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032BC511A86080F007D6F82 /* ViewController.swift */; };
 		3032BC551A86080F007D6F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032BC531A86080F007D6F82 /* Main.storyboard */; };
 		3032BC571A86080F007D6F82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3032BC561A86080F007D6F82 /* Images.xcassets */; };
 		3032BC5A1A86080F007D6F82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3032BC581A86080F007D6F82 /* LaunchScreen.xib */; };
 		3032BC661A86080F007D6F82 /* Bills_DivideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032BC651A86080F007D6F82 /* Bills_DivideTests.swift */; };
+		3032BC721A862FDD007D6F82 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032BC711A862FDD007D6F82 /* SummaryCell.swift */; };
+		3032BC741A8636A2007D6F82 /* BillingMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032BC731A8636A2007D6F82 /* BillingMonth.swift */; };
+		3075DD971A879A3800B6E849 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075DD961A879A3800B6E849 /* graph.png */; };
+		3075DD991A87A3F500B6E849 /* Rectangle 1 + Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075DD981A87A3F500B6E849 /* Rectangle 1 + Add.png */; };
+		3075DD9B1A87A76100B6E849 /* OccupantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075DD9A1A87A76100B6E849 /* OccupantsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30303BBF1A86E35200ED7BF5 /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		30303BC11A87314C00ED7BF5 /* hp_msn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp_msn.png; sourceTree = "<group>"; };
+		30303BC31A877B4700ED7BF5 /* line_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_chart.png; sourceTree = "<group>"; };
 		3032BC4A1A86080F007D6F82 /* Bills Divide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bills Divide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032BC4E1A86080F007D6F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3032BC4F1A86080F007D6F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,11 @@
 		3032BC5F1A86080F007D6F82 /* Bills DivideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bills DivideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032BC641A86080F007D6F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3032BC651A86080F007D6F82 /* Bills_DivideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bills_DivideTests.swift; sourceTree = "<group>"; };
+		3032BC711A862FDD007D6F82 /* SummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		3032BC731A8636A2007D6F82 /* BillingMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillingMonth.swift; sourceTree = "<group>"; };
+		3075DD961A879A3800B6E849 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		3075DD981A87A3F500B6E849 /* Rectangle 1 + Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 1 + Add.png"; sourceTree = "<group>"; };
+		3075DD9A1A87A76100B6E849 /* OccupantsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupantsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +94,18 @@
 			isa = PBXGroup;
 			children = (
 				3032BC4F1A86080F007D6F82 /* AppDelegate.swift */,
+				3032BC731A8636A2007D6F82 /* BillingMonth.swift */,
+				3032BC711A862FDD007D6F82 /* SummaryCell.swift */,
+				3075DD9A1A87A76100B6E849 /* OccupantsCell.swift */,
 				3032BC511A86080F007D6F82 /* ViewController.swift */,
+				30303BBF1A86E35200ED7BF5 /* AddEntryViewController.swift */,
 				3032BC531A86080F007D6F82 /* Main.storyboard */,
 				3032BC561A86080F007D6F82 /* Images.xcassets */,
 				3032BC581A86080F007D6F82 /* LaunchScreen.xib */,
+				30303BC11A87314C00ED7BF5 /* hp_msn.png */,
+				3075DD961A879A3800B6E849 /* graph.png */,
+				30303BC31A877B4700ED7BF5 /* line_chart.png */,
+				3075DD981A87A3F500B6E849 /* Rectangle 1 + Add.png */,
 				3032BC4D1A86080F007D6F82 /* Supporting Files */,
 			);
 			path = "Bills Divide";
@@ -192,8 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3075DD971A879A3800B6E849 /* graph.png in Resources */,
+				3075DD991A87A3F500B6E849 /* Rectangle 1 + Add.png in Resources */,
+				30303BC41A877B4700ED7BF5 /* line_chart.png in Resources */,
 				3032BC551A86080F007D6F82 /* Main.storyboard in Resources */,
 				3032BC5A1A86080F007D6F82 /* LaunchScreen.xib in Resources */,
+				30303BC21A87314C00ED7BF5 /* hp_msn.png in Resources */,
 				3032BC571A86080F007D6F82 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3075DD9B1A87A76100B6E849 /* OccupantsCell.swift in Sources */,
+				3032BC741A8636A2007D6F82 /* BillingMonth.swift in Sources */,
 				3032BC521A86080F007D6F82 /* ViewController.swift in Sources */,
+				3032BC721A862FDD007D6F82 /* SummaryCell.swift in Sources */,
+				30303BC01A86E35200ED7BF5 /* AddEntryViewController.swift in Sources */,
 				3032BC501A86080F007D6F82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +437,7 @@
 				3032BC6B1A86080F007D6F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3032BC6C1A86080F007D6F82 /* Build configuration list for PBXNativeTarget "Bills DivideTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				3032BC6E1A86080F007D6F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
