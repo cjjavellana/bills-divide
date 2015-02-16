@@ -21,6 +21,12 @@
 		3075DD971A879A3800B6E849 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075DD961A879A3800B6E849 /* graph.png */; };
 		3075DD991A87A3F500B6E849 /* Rectangle 1 + Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075DD981A87A3F500B6E849 /* Rectangle 1 + Add.png */; };
 		3075DD9B1A87A76100B6E849 /* OccupantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075DD9A1A87A76100B6E849 /* OccupantsCell.swift */; };
+		30869A7A1A90D1E0002EB1C4 /* Payable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30869A791A90D1E0002EB1C4 /* Payable.swift */; };
+		30869A7C1A90E290002EB1C4 /* PayableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30869A7B1A90E290002EB1C4 /* PayableCell.swift */; };
+		30A4A1FD1A88F56D00350B64 /* FinalSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4A1FC1A88F56D00350B64 /* FinalSummaryCell.swift */; };
+		30A4A1FF1A88F61900350B64 /* SummaryUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4A1FE1A88F61900350B64 /* SummaryUIViewController.swift */; };
+		30A4A2011A8A5A5D00350B64 /* BillDivisionDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4A2001A8A5A5D00350B64 /* BillDivisionDetailController.swift */; };
+		30A4A2031A8A5E0400350B64 /* BillDivisionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4A2021A8A5E0400350B64 /* BillDivisionDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,12 @@
 		3075DD961A879A3800B6E849 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
 		3075DD981A87A3F500B6E849 /* Rectangle 1 + Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 1 + Add.png"; sourceTree = "<group>"; };
 		3075DD9A1A87A76100B6E849 /* OccupantsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupantsCell.swift; sourceTree = "<group>"; };
+		30869A791A90D1E0002EB1C4 /* Payable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payable.swift; sourceTree = "<group>"; };
+		30869A7B1A90E290002EB1C4 /* PayableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayableCell.swift; sourceTree = "<group>"; };
+		30A4A1FC1A88F56D00350B64 /* FinalSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalSummaryCell.swift; sourceTree = "<group>"; };
+		30A4A1FE1A88F61900350B64 /* SummaryUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryUIViewController.swift; sourceTree = "<group>"; };
+		30A4A2001A8A5A5D00350B64 /* BillDivisionDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDivisionDetailController.swift; sourceTree = "<group>"; };
+		30A4A2021A8A5E0400350B64 /* BillDivisionDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDivisionDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +107,16 @@
 			children = (
 				3032BC4F1A86080F007D6F82 /* AppDelegate.swift */,
 				3032BC731A8636A2007D6F82 /* BillingMonth.swift */,
+				30A4A2021A8A5E0400350B64 /* BillDivisionDetail.swift */,
+				30869A7B1A90E290002EB1C4 /* PayableCell.swift */,
+				30869A791A90D1E0002EB1C4 /* Payable.swift */,
 				3032BC711A862FDD007D6F82 /* SummaryCell.swift */,
+				30A4A1FC1A88F56D00350B64 /* FinalSummaryCell.swift */,
 				3075DD9A1A87A76100B6E849 /* OccupantsCell.swift */,
 				3032BC511A86080F007D6F82 /* ViewController.swift */,
 				30303BBF1A86E35200ED7BF5 /* AddEntryViewController.swift */,
+				30A4A1FE1A88F61900350B64 /* SummaryUIViewController.swift */,
+				30A4A2001A8A5A5D00350B64 /* BillDivisionDetailController.swift */,
 				3032BC531A86080F007D6F82 /* Main.storyboard */,
 				3032BC561A86080F007D6F82 /* Images.xcassets */,
 				3032BC581A86080F007D6F82 /* LaunchScreen.xib */,
@@ -242,9 +260,15 @@
 			files = (
 				3075DD9B1A87A76100B6E849 /* OccupantsCell.swift in Sources */,
 				3032BC741A8636A2007D6F82 /* BillingMonth.swift in Sources */,
+				30869A7C1A90E290002EB1C4 /* PayableCell.swift in Sources */,
+				30A4A2011A8A5A5D00350B64 /* BillDivisionDetailController.swift in Sources */,
 				3032BC521A86080F007D6F82 /* ViewController.swift in Sources */,
+				30869A7A1A90D1E0002EB1C4 /* Payable.swift in Sources */,
+				30A4A1FF1A88F61900350B64 /* SummaryUIViewController.swift in Sources */,
 				3032BC721A862FDD007D6F82 /* SummaryCell.swift in Sources */,
+				30A4A1FD1A88F56D00350B64 /* FinalSummaryCell.swift in Sources */,
 				30303BC01A86E35200ED7BF5 /* AddEntryViewController.swift in Sources */,
+				30A4A2031A8A5E0400350B64 /* BillDivisionDetail.swift in Sources */,
 				3032BC501A86080F007D6F82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
